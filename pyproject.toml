@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "extração asap log"
+version = "0.1.0"
+description = ""
+authors = ["LuizEduardo-service <luizeduardo.service@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openpyxl = "^3.0.10"
+easygui = "^0.98.3"
+webdriver-manager = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+python-decouple = "^3.6"
+blue = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
